@@ -1,0 +1,271 @@
+.fourthpage{
+    width: 100%;
+    height: fit-content;
+    padding-top: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 8%;
+    background-image: url(backgroundimg4.jpeg),url(imageca.png);
+    background-position: bottom left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 150px, 150px;
+}
+.fourthpage h4{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    color: gold;
+}
+.fourthpage h2{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+}
+.fourthpage p{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+}
+.chefsdiv{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+}
+.chefsdiv header{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.chef1 img{
+    width: 200px;
+    height: 200px;
+}
+.chef2 img{
+    width: 200px;
+    height: 200px;
+}
+.chef3 img{
+    width: 200px;
+    height: 200px;
+}
+.ratingandtestemonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.rating{
+    width: 25%;
+    height: 180px;
+    box-shadow: 0.2px 0.2px 4px rgba(0, 0, 0, 0.226);
+    border-radius: 5px;
+    padding: 10px;
+    /* padding-bottom: 40px; */
+    /* display: block; */
+    /* margin-bottom: 30px; */
+    background-color: white;
+}
+.rating h3{
+    font-family: sans-serif;
+}
+.checked{
+    color: orange;
+}
+/* .ratingimagesicons{
+    margin-top: 10px;
+    display: inline-flex;
+    flex-wrap: nowrap;
+} */
+.ratingimagesicons img{
+    margin-top: 10px;
+    border-radius: 47%;
+    width: 50px;
+    height: 50px;
+}
+.testimonials{
+    width: 50%;
+}
+.testimonials h4{
+    margin-left: 0;
+    margin-right: 0;
+    color: gold;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.testimonials h2{
+    margin-left: 0;
+    margin-right: 0;
+    color: black;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.testimonials p{
+    width: fit-content;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.testimonials header{
+    font-family: sans-serif;
+}
+.testimonials h3{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.testimonials i{
+    border: none;
+    color: black;
+    font-size: 80px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.signin{
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 7px;
+}
+.signin h2{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.signin input{
+    background-color: white;
+    width: 50%;
+    height: 50px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    color: rgba(0, 0, 0, 0.692);
+    border: none;
+    margin-bottom: 20px;
+}
+.signin button{
+    background-color: gold;
+    width: 10%;
+    height: 50px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: rgba(0, 0, 0, 0.692);
+    border: none;
+    font-size: 13px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.signin a{
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .chef1 img{
+        width: 150px;
+        height: 150px;
+    }
+    .chef2 img{
+        width: 150px;
+        height: 150px;
+    }
+    .chef3 img{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 700px) {
+    .fourthpage{
+        padding-bottom: 80px;
+    }
+    .fourthpage h4{
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: sans-serif;
+        color: gold;
+    }
+    .fourthpage h2{
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: sans-serif;
+    }
+    .fourthpage p{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: sans-serif;
+    }
+    .signin h2{
+        font-size: 16px;
+    } 
+    .signin input{
+        background-color: white;
+        width: 40%;
+        height: 30px;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+        color: rgba(0, 0, 0, 0.692);
+        border: none;
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+    .signin button{
+        background-color: gold;
+        width: fit-content;
+        height: 30px;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        color: rgba(0, 0, 0, 0.692);
+        border: none;
+        font-size: 10px;
+        font-family: sans-serif;
+        margin-bottom: 20px;
+    }
+    .ratingandtestemonials{
+        display: block;
+    }
+    .rating{
+        width: 60%;
+        /* margin-left: 20%; */
+        /* margin-right: 50%; */
+        margin-bottom: 30px;
+    }
+    .testimonials{
+        width: 80%;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .testimonials h4{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .chef1 img{
+        width: 100px;
+        height: 100px;
+    }
+    .chef2 img{
+        width: 100px;
+        height: 100px;
+    }
+    .chef3 img{
+        width: 100px;
+        height: 100px;
+    }
+}

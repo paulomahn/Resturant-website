@@ -1,0 +1,135 @@
+.footer{
+    width: 100%;
+    height: fit-content;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.foolish-developer{
+    margin: 20px;
+    width: 20%;
+    /* background-color: black; */
+}
+.foolish-developer h4{
+    margin-top: 10px;
+}
+.foolish-developer p{
+    margin-top: 10px;
+}
+.foolish-developer i{
+    margin: 5px;
+    cursor: pointer;
+}
+.foolish-developer .fa-facebook,.foolish-developer .fa-youtube{
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.548);
+    border-radius: 3px;
+}
+.foolish-developer .fa-twitter{
+    padding: 5px 8px;
+    background-color: gold;
+    color: black;
+    font-size: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.548);
+    border-radius: 3px;
+}
+.footer h4{
+    font-size: 18px;
+}
+.footer a{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.807);
+    cursor: pointer;
+}
+.footer a:hover{
+    color: red;
+}
+.footerdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 55%;
+    /* background-color: black; */
+}
+.footerdiv div{
+    margin: 20px;
+}
+.support a{
+    width: fit-content;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ourmenu a{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    display: block;
+    margin-top: 10px;
+}
+.usefullink a{
+    width: fit-content;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.getintouch a{
+    width: fit-content;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (max-width: 900px){
+    .foolish-developer{
+        margin: 20px;
+        width: 100%;
+        /* background-color: black; */
+    }
+    .footerdiv{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        /* background-color: black; */
+    }
+}
+
+@media (max-width: 450px){
+    .footerdiv{
+        display: block;
+        width: 100%;
+        /* background-color: black; */
+        text-align: center;
+    }
+    .support{
+        width: 100%;
+    }
+    .ourmenu{
+        width: 100%;
+    }
+    .usefullink{
+        width: 100%;
+    }
+    .getintouch{
+        width: 100%;
+    }
+    .foolish-developer i{
+        text-align: center;
+    }
+}

@@ -1,0 +1,154 @@
+.seconddiv{
+    width: 100%;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section3{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section4{
+    width: 85%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.box{
+    width: 30%;
+    height: 220px;
+    box-shadow: 0.2px 0.2px 4px rgba(0, 0, 0, 0.226);
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 40px;
+    background-color: white;
+}
+.box h3{
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.822);
+}
+.box p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 0, 0.700);
+    padding-top: 10px;
+}
+.box img{
+    width: 100px;
+}
+.commentsection{
+    width: fit-content;
+    display: block;
+}
+.commentsection div{
+    margin: 20px;
+}
+.review{
+    width: 60%;
+    height: fit-content;
+    box-shadow: 0.2px 0.2px 4px rgba(0, 0, 0, 0.226);
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 40px;
+    background-color: white;
+}
+.review h3{
+    font-family: sans-serif;
+}
+.review a{
+    float: right;
+    text-decoration: none;
+    color: gold;
+    /* margin: 20px; */
+}
+.review i{
+    color: gold;
+    cursor: pointer;
+}
+.review img{
+    width: 50px;
+}
+.aboutus{
+    width: 60%;
+}
+.aboutus h4{
+    color: gold;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.aboutus h2{
+    margin-top: 2vh;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.aboutus p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 0, 0.808);
+    margin-top: 10px;
+}
+.aboutus a{
+    width: fit-content;
+    color: black;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    background-color: gold;
+    border-radius: 6px;
+    margin-top: 2vh;
+}
+
+@media (max-width: 700px){
+    .section3{
+        width: 85%;
+        display: block;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .box{
+        width: fit-content;
+        height: fit-content;
+        box-shadow: 0.2px 0.2px 4px rgba(0, 0, 0, 0.226);
+        border-radius: 5px;
+        padding: 10px;
+        padding-bottom: 30px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .section4{
+        display: block;
+    }
+    .commentsection{
+        width: fit-content;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .aboutus{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 480px){
+    .commentsection{
+        width: fit-content;
+        display: block;
+    }
+    .review{
+        width: 80%;
+        float: left;
+    }
+    .rating{
+        width: 80%;
+        float: right;
+    }
+}

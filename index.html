@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cuisine resturant</title>
+    <!-- <link rel="stylesheet" href="stylelandingpage.css"> -->
+    <link rel="stylesheet" href="stylefirstpage.css">
+    <link rel="stylesheet" href="stylesecondpage.css">
+    <link rel="stylesheet" href="stylethirdpage.css">
+    <link rel="stylesheet" href="stylefourthpage.css">
+    <link rel="stylesheet" href="stylefooter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="firstpage">
+        <div class="mainnav">
+        <div class="nav">
+            <span>TastyBistro</span>
+            <a href="#" class="fa fa-home" id="home1"></a>
+            <i class="fa fa-bars" onclick="myFunction()" class="hamburger"></i>
+        </div>
+
+
+        <nav>
+
+                <div class="navlinks">
+                        <input type="search" value="search" style="height: 20px;" class="searcbox">
+                        <a href="#">categories</a>
+                        <a href="#">recipes</a>
+                        <a href="#">resturant</a>
+                        <a href="#">contact</a>
+                        <a href="#">services</a>
+                </div>
+
+                <a href="#" class="fa fa-home" id="home2"></a>
+        </nav>
+        </div>
+
+        <script>
+            const navlinks = document.querySelector(".navlinks")
+            function myFunction() {
+                if (navlinks.style.display==="block") {
+                    navlinks.style.display="none";
+                } else {
+                    navlinks.style.display="block";
+                }
+            }
+        </script>
+
+        <div class="section1">
+            <div class="subsection">
+                <p class="first">Get 25% off your first order</p>
+                <h3>Welcome to our</h3>
+                <h2>Cuisine Resturant</h2>
+                <p class="last">one meal, endless ways to finesse it. The special chinese noodles
+                    meal is coming soon along with some creative remixes from TastBistro.
+                </p>
+                <a href="#" style="display: block;">Explore Food Menu</a>
+            </div>
+
+            <!-- <div class="imgdivs">
+                <img src="pg1img.jpeg" alt="" class="i1">
+                <img src="image fa.png" alt="" class="i2">
+                <img src="image a.png" alt="" class="i3">
+                <img src="image ea.png" alt="" class="i4">
+            </div> -->
+        </div>
+    </div>
+
+
+    <div class="seconddiv">
+
+        <div class="section3">
+            <div class="box">
+                <img src="icondelivery.jpeg" alt="">
+                <h3>Speedy Delivery</h3>
+                <p>We have a fast and very efficient delivery system with 27/7 support.</p>
+            </div>
+            <div class="box">
+                <img src="hamburger1.jpeg" alt="">
+                <h3>Exciting Taste</h3>
+                <p>We derive our great taste from our carefully selected ingredients gotten from the best sources.</p>
+            </div>
+            <div class="box">
+                <img src="iconchef.jpeg" alt="">
+                <h3>Best Offer</h3>
+                <p>We have on our menu the best offer you can get anywhere.</p>
+            </div>
+        </div>
+
+        <div class="section4">
+            <div class="commentsection">
+                <div class="review">
+                    <a href="">see all</a>
+                    <br>
+                    <h3>Paul Omoniyi<h3>
+                    <img src="iconchef.jpeg" alt="">
+                    <br>
+                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                    <br>
+                    <p>"great meal with a touch of excellence and exceptional service delivery"</p>
+                </div>
+                <!-- <div class="rating">
+                    <h3>customer rating review</h3>
+                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                    <div class="ratingimagesicons">
+                        <img src="image a.png" alt="" style="width: 30px; border-radius: 100px;">
+                        <img src="image a.png" alt="" style="width: 30px; border-radius: 100px;">
+                        <img src="image a.png" alt="" style="width: 30px; border-radius: 100px;">
+                    </div>
+                </div> -->
+            </div>
+            
+            <div class="aboutus">
+                <h4>About Us</h4>
+                <h2>Healthy Tasty and delicacies to spice your life</h2>
+                <p>we are a resturant brand committed to serving you delicious and exciting meals made within the finest
+                    ingredients, with a great experience through our exceptional service delivery.
+                </p>
+                <a href="">Explore our stories</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="thirdpage">
+        <h3>About us</h3>
+        <br>
+        <h2>Our special dishes</h2>
+        <div class="nav2">
+            <div>
+            <a href="" style="margin-left: 0px;">All</a>
+            <a href="" class="activee">Breakfast</a>
+            <a href="">Launch</a>
+            <a href="">Dinner</a>
+            <a href="">Desert</a>
+            <a href="">Beverages</a>
+            <span class="filter" ><i class="fa fa-filter"></i>Filter</span>
+            </div>
+        </div>
+<!-- for use on maxwidth 900 only -->
+        <div class="nav2clone">
+            <div class="dropdown">
+                <p style="margin-left: 0px;">All<i class="fa fa-caret-down"></i></p>
+                <div class="dropdowncontents">
+                    <a href="">Breakfast</a>
+                    <a href="" style="margin-top: 15%;">Launch</a>
+                    <a href="" style="margin-top: 15%;">Dinner</a>
+                    <a href="" style="margin-top: 15%;">Desert</a>
+                    <a href="" style="margin-top: 15%;">Beverages</a>
+                </div>
+            </div>
+            <span class="filter2clone" ><i class="fa fa-filter"></i>Filter</span>
+        </div>
+        
+        <div class="nav3">
+            <a href="" style="margin-left: 0px;">Set menu</a>
+            <a href="">Bread</a>
+            <a href="">Sandwiches</a>
+            <a href="" class="activee1">Burger</a>
+            <a href="">Pasta</a>
+            <a href="">Pizza</a>
+        </div>
+
+        <div class="section5">
+            <div class="box2">
+                <img src="hamburger1.jpeg" alt="">
+                <h3>MacDonald Cheeseburger</h3>
+                <br>
+                <header>hamburger veggie burger</header>
+                <br>
+                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(57reviews)</span></p>
+                <br>
+                <span>$10.45</span><a href="">Add to cart</a>
+            </div>
+            <div class="box2">
+                <img src="hamburger2.jpeg" alt="">
+                <h3>Cheeseburger</h3>
+                <br>
+                <header>whooper veggie burger</header>
+                <br>
+                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(57reviews)</span></p>
+                <br>
+                <span>$9.45</span><a href="">Add to cart</a>
+            </div>
+            <div class="box2">
+                <img src="hamburger3.jpeg" alt="">
+                <h3>Three patty burger</h3>
+                <br>
+                <header>whooper veggie burger</header>
+                <br>
+                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(57reviews)</span></p>
+                <br>
+                <span>$7.45</span><a href="">Add to cart</a>
+            </div>
+            <div class="box2">
+                <img src="hamburger3.jpeg" alt="">
+                <h3>Burger with lettuce</h3>
+                <br>
+                <header>hamburger veggie burger</header>
+                <br>
+                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(57reviews)</span></p>
+                <br>
+                <span>$12.45</span><a href="">Add to cart</a>
+            </div>
+            <div class="box2">
+                <img src="hamburger4.jpeg" alt="">
+                <h3>Three patty burger</h3>
+                <br>
+                <header>whooper veggie burger</header>
+                <br>
+                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(57reviews)</span></p>
+                <br>
+                <span>$5.45</span><a href="">Add to cart</a>
+            </div>
+            <div class="box2">
+                <img src="hamburger5.jpeg" alt="">
+                <h3>Brown Hamburger</h3>
+                <br>
+                <header>whooper veggie burger</header>
+                <br>
+                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(57reviews)</span></p>
+                <br>
+                <span>$4.45</span><a href="">Add to cart</a>
+            </div>
+            <div class="box2">
+                <img src="hamburger1.jpeg" alt="">
+                <h3>Hamburger</h3>
+                <br>
+                <header>whooper veggie burger</header>
+                <br>
+                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(57reviews)</span></p>
+                <br>
+                <span>$7.45</span><a href="">Add to cart</a>
+            </div>
+            <div class="box2">
+                <img src="hamburger2.jpeg" alt="">
+                <h3>Hamburger</h3>
+                <br>
+                <header>Black hamburger</header>
+                <br>
+                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(57reviews)</span></p>
+                <br>
+                <span>$12.45</span><a href="">Add to cart</a>
+            </div>
+
+        </div>
+        <a href=" " class="exploremore">Explore more</a>
+    </div>
+
+    <div class="fourthpage">
+            <h4>Our Chefs</h4>
+            <h2>Meet our super amazing Chefs</h2>
+            <p>At TastyBistro, we have an array of highly qulified and seasoned chefs with experience cooking delicious meals and serving our customers with the best</p>
+            <div class="chefsdiv">
+                <div class="chef1">
+                    <img src="chef1.jpeg" alt="">
+                    <br>
+                    <header>Jamie Trent</header>
+                </div>
+                <div class="chef2">
+                    <img src="chef2.jpeg" alt="">
+                    <br>
+                    <header>Jamie Trent</header>
+                </div>
+                <div class="chef2">
+                    <img src="chef3.jpeg" alt="">
+                    <br>
+                    <header>Jamie Trent</header>
+                </div>
+            </div>
+
+            
+            <div class="ratingandtestemonials">
+               <div class="rating">
+                    <h3>customer rating review</h3>
+                    <br>
+                    <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                    <br>
+                    <div class="ratingimagesicons">
+                        <img src="paulomahn.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="testimonials">
+                    <h4>Testimonials</h4>
+                    <br>
+                    <h2>Our super amazing customers love our meals</h2>
+                    <br>
+                    <p>The meals are tasty, made with the best ingredients and served by the most welcoming and friendly stuff</p>
+                    <br>
+                    <h3>Alexander Price</h3>
+                    <br>
+                    <header>New Haven, Callifonia</header>
+                    <!-- <br> -->
+                    <i class="fa fa-caret-left"></i><i class="fa fa-caret-right" style="color: gold;"></i>
+                </div>
+            </div>
+            <div class="signin">
+                <h2>Join our members and get discount up to 50%</h2>
+                <input type="email" name="email" value="Enter your email address"><button>sign up</button>
+                <br>
+                <a href="">I am a new member</a>
+            </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="foolish-developer">
+            <h4>TastyBistro</h4>
+            <p>send us a message today lets handle your order</p>
+            <i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> <i class="fa fa-youtube"></i> <i class="fa fa-linkdeln"></i>
+        </div>
+        <div class="footerdiv">
+        <div class="support">
+                    <h4>support</h4>
+                    <br>
+                    <a href="">Account</a>
+                    <a href="">support center</a>
+                    <a href="">Feedback</a>
+                    <a href="">Accesibility</a>
+        </div>
+        <div class="ourmenu">
+                    <h4>Our Menu</h4>
+                    <br>
+                    <a href="">special</a>
+                    <a href="">popular</a>
+                    <a href="">categories</a>
+        </div>
+        <div class="usefullink">
+                    <h4>Usefullink</h4>
+                    <br>
+                    <a href="">payment and tax</a>
+                    <a href="">terms of service</a>
+                    <a href="">privacy policy</a>
+                    <a href="">about us</a>
+        </div>
+        <div class="getintouch">
+            <h4>Get in touch</h4>
+            <br>
+            <a href="">orders@tastybistro.com</a>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>
