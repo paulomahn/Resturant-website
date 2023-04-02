@@ -80,6 +80,7 @@ a.activee1,.nav3 a:hover{
     margin-top: 20px;
     background-color: white;
     padding-bottom: 40px;
+    border-radius: 10px;
 }
 .box2 h3{
     color: rgba(0, 0, 0, 0.788);
@@ -108,6 +109,11 @@ a.activee1,.nav3 a:hover{
     background-color: white;
     border: 2px solid gold;
     padding: 10px;
+    color: black;
+    border-radius: 10px;
+}
+.box2 a:hover{
+    background-color: gold;
     color: black;
 }
 .box2 img{
