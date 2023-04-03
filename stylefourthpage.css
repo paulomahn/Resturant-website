@@ -239,8 +239,8 @@
         background-color: gold;
         width: fit-content;
         height: 30px;
-        border-top-right-radius: 3px;
-        border-bottom-right-radius: 3px;
+        /* border-top-right-radius: 3px; */
+        /* border-bottom-right-radius: 3px; */
         color: rgba(0, 0, 0, 0.692);
         border: none;
         font-size: 10px;
