@@ -228,8 +228,8 @@
         background-color: white;
         width: 40%;
         height: 30px;
-        border-top-left-radius: 3px;
-        border-bottom-left-radius: 3px;
+        /* border-top-left-radius: 3px; */
+        /* border-bottom-left-radius: 3px; */
         color: rgba(0, 0, 0, 0.692);
         border: none;
         font-size: 10px;
